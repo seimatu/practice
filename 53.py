@@ -15,6 +15,8 @@
 num1=10
 num2=3000
 
+
+
 def sum():
     num1=45
     print(num1+num2)
