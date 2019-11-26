@@ -34,5 +34,5 @@ def myfun(x):
 #after function call.
 #関数の呼出後はXは変更されない。
 x=10
-myfun(x):
+myfun(x);
 print(x)
