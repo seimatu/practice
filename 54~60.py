@@ -106,3 +106,4 @@ def calculate(*args):
 sum=0
 calculate(10,20,30,40,50)
 print('Value of sum outside the function',sum)
+
