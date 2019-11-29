@@ -89,7 +89,7 @@
 # if a!= b:
 #     print('true')
 
-print('---------------while,for---------------------')
+# print('---------------while,for---------------------')
 # count = 0
 # while True:
 #     if count>=10:
@@ -111,14 +111,69 @@ print('---------------while,for---------------------')
 # for i,fruit in enumerate(['apple','banana','orange']):
 #     print(i,fruit)
 
-days=['Mon','Tue','wen']
-fruits=['apple','banana','orange']
-drinks=['coffee','tea','beer']
+# days=['Mon','Tue','wen']
+# fruits=['apple','banana','orange']
+# drinks=['coffee','tea','beer']
 
-for i in range(len(days)):
-    print(days[i],fruits[i],drinks[i])
+# for i in range(len(days)):
+#     print(days[i],fruits[i],drinks[i])
 
-#上下同じ意味
+# #上下同じ意味
 
-for day,fruits,drink in zip(days,fruits,drinks):
-    print(day,fruits,drink)
+# for day,fruits,drink in zip(days,fruits,drinks):
+#     print(day,fruits,drink)
+
+
+
+
+print('---------------class---------------------')
+class Car:
+    def run(self):
+        print('run')
+class Toyotacar(Car):
+    pass
+class Tesracar(Car):
+    def auto_run(self):
+        print('auto run')
+drive=Car()
+drive.run()
+print('########################')
+toyota=Toyotacar()
+toyota.run()
+print('########################')
+tesra=Tesracar()
+tesra.run()
+tesra.auto_run()
+
+print('---------------class,super---------------------')
+
+class Car:
+    def __init__(self,model=None):
+        self.model=model
+    def run(self):
+        print('run')
+
+class Toyotacar(Car):
+    def run(self):
+        print('first')
+
+class Tesracar(Car):
+    def __init__(self,model='ModerS',enable_auto_run=False):
+        self.model=model
+    def run(self):
+        print('super first')
+    def auto_run(self):
+        print('auto run')
+        
+drive=Car()
+drive.run()
+
+print('########################')
+toyota=Toyotacar('Lexus')
+print(toyota.model)
+toyota.run()
+print('########################')
+tesra=Tesracar('Model S')
+print(tesra.model)
+tesra.run()
+tesra.auto_run()
