@@ -1,6 +1,6 @@
 class Planet:
     country='japan'
-    city='tokyo'
+    city='kyoto'
 
     def __init__(self,city,plece):
         self.city

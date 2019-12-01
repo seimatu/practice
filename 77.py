@@ -1,5 +1,5 @@
 class Future:
-    fun='vety nise day'
+    fun='very nice day'
 
     #creating a class level object
 

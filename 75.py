@@ -13,7 +13,7 @@ van named Jump worth  $10,000,000.
 #         return name,Type,color,price
 
 
-print('--------------------------------------------')
+# print('--------------------------------------------')
 
 # class Car:
 #     def car1(self,name,Type,color,price):

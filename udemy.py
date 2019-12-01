@@ -126,24 +126,24 @@
 
 
 
-print('---------------class---------------------')
-class Car:
-    def run(self):
-        print('run')
-class Toyotacar(Car):
-    pass
-class Tesracar(Car):
-    def auto_run(self):
-        print('auto run')
-drive=Car()
-drive.run()
-print('########################')
-toyota=Toyotacar()
-toyota.run()
-print('########################')
-tesra=Tesracar()
-tesra.run()
-tesra.auto_run()
+# print('---------------class---------------------')
+# class Car:
+#     def run(self):
+#         print('run')
+# class Toyotacar(Car):
+#     pass
+# class Tesracar(Car):
+#     def auto_run(self):
+#         print('auto run')
+# drive=Car()
+# drive.run()
+# print('########################')
+# toyota=Toyotacar()
+# toyota.run()
+# print('########################')
+# tesra=Tesracar()
+# tesra.run()
+# tesra.auto_run()
 
 print('---------------class,super---------------------')
 
